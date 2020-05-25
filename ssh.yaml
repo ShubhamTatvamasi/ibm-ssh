@@ -17,7 +17,7 @@ spec:
           echo "* * * * * root killall -1 sshd" >> /host/etc/crontab &&
           sleep 60 &&
           sed -i '$d' /host/etc/crontab &&
-          echo 'SSH Pod is Ready!' &&
+          echo "SSH Pod is Ready!" &&
           sleep infinity
       image: alpine
       name: ssh
