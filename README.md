@@ -2,7 +2,7 @@
 
 create a pod for ssh:
 ```bash
-kubectl apply -f https://raw.githubusercontent.com/ShubhamTatvamasi/ibm-ssh/master/ssh.yaml
+kubectl apply -f https://github.com/ShubhamTatvamasi/ibm-ssh/raw/master/ssh.yaml
 ```
 
 ssh to host machine:
