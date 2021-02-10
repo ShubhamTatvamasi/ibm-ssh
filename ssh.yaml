@@ -10,8 +10,8 @@ spec:
     image: alpine
     workingDir: /host
     volumeMounts:
-    - mountPath: /host
-      name: host-volume
+    - name: host-volume
+      mountPath: /host
     args:
     - sh
     - '-c'
